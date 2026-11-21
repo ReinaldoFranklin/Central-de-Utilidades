@@ -1,0 +1,124 @@
+{
+    margin: 0;
+    adding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #1e4b2f;
+  line-height: 1.6;
+}
+header {
+  background-color: #174d36;
+  color: ;white;
+  padding: 20px 8%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 24px;
+}
+nav {
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #A9D6B0;
+main {
+  width: 84%;
+  max-width: 1200px;
+    margin: 40px auto;
+}
+#inicio {
+    background-color: white;
+    padding: 45px
+    border-radius: 10px;
+    border-left: 5px solid #287a50;
+    margin-bottom: 40px;
+}
+#inicio h2 {
+  color: #174d36;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+#inicio p {
+  font-size: 18px;
+  color: #59665d;
+}
+ferramentas h2 {
+  color: #174d36;
+  margin-bottom: 20px;
+font-size: 28px;
+}
+#ferramentas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#ferramentas h2 {
+  grid-column: 1 / -1;
+}
+article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(23, 77, 54, 0.12);
+}
+article h3 {
+  color: #287a50
+  margin-bottom: 10px;
+  article p {
+    color: #59665d;
+    }
+#sobre {
+  background-color: #e8f1eb;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+#sobre h2 {
+  color: #174d36;
+  margin-bottom: 10px;
+}
+#footer {
+  background-color: #174d36;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      gap: 15px;
+    }
+    nav {
+      flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    main {
+      width: 92%;
+    }
+    #inicio {
+      padding: 30px;
+    }
+    #inicio h2 {
+      font-size: 24px;
+    }
+    #ferramentas {
+      grid-template-columns: 1fr;
+    }
