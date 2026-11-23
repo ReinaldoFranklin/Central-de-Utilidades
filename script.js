@@ -46,9 +46,8 @@ function lerNumero(mensagem, minimo, inteiro = false) {
 }
 
 
-// ==========================================
+
 // 1. CALCULADORA DE DESCONTOS
-// ==========================================
 
 function calcularDesconto(preco, percentual) {
 
@@ -89,9 +88,8 @@ function calculadoraDescontos() {
 }
 
 
-// ==========================================
 // 2. CALCULADORA DE PARCELAS
-// ==========================================
+
 
 function calcularParcela(valorTotal, quantidade) {
 
@@ -125,9 +123,8 @@ function calculadoraParcelas() {
 }
 
 
-// ==========================================
+
 // 3. SIMULADOR DE INVESTIMENTOS
-// ==========================================
 
 function simularInvestimento(inicial, aporte, taxa, meses) {
 
@@ -187,9 +184,7 @@ function simuladorInvestimentos() {
 }
 
 
-// ==========================================
 // 4. DIVISOR DE DESPESAS
-// ==========================================
 
 function dividirDespesas(total, pessoas) {
 
